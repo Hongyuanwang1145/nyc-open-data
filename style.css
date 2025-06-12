@@ -1,0 +1,81 @@
+html, body{
+  height:100%;
+  font-family:Arial;
+  margin:0 auto;
+  background-image: url("images/Motor.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+  
+a{
+  text-decoration:none;
+  color:blue;
+}
+.container{
+  display:flex;
+}
+.column{
+  flex-direction:column;
+}
+nav a{
+  flex:1;
+  text-align:center;
+  padding:10px;
+}
+nav a:hover{
+  background-color:black;
+  color:white;
+  transition:1s;
+}
+#banner{
+  align-items: center;  
+  background-color:;
+  color:red;
+  padding:50px;
+}
+#body{
+  padding:50px;
+  background-image: url("");
+  background-position: center;
+  background-size: cover;
+  background-color:orange ;
+	border-style: dashed;
+	padding: 65px;
+}
+#links{
+  padding:50px;
+}
+#links img{
+flex:1;
+  border: 1px solid black;
+  margin:5px;
+}
+
+#footer{
+  background-image:Motorcycl.jpeg;
+  color:red;
+  padding:100px;
+  justify-content: center;
+  align-items:center;
+}
+#map{
+background-color:orange ;
+border-style: dashed;
+height:400px;
+}
+
+.fitted{
+	max-width:200px;
+	min-width:150px;
+	background-color:silver;
+}
+
+.card{
+	flex:1;
+	margin:10px;
+	padding:10px;
+	border:1px soild gary;
+	text-align:center;
+	box-shadow:2px 2px 2px black;
+	boder-radius:2px;
+}
